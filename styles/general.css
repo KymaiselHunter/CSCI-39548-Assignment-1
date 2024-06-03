@@ -1,0 +1,12 @@
+.navbar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;	
+	width: 80%;
+
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top : 20px;
+
+	//background-color: #495670;
+}
