@@ -25,10 +25,22 @@
 	align-items: center;
 	padding-left:10%;
 	padding-right:10%;
+	color: rgb(74, 73, 73);
+	text-decoration: none;
+}
+
+.navbar-item-curr{
+	display: flex;
+	align-items: center;
+	padding-left:10%;
+	padding-right:10%;
+	background-color: #607295;
+	color: white;
+	text-decoration: none;
 }
 
 .navbar-item:hover{
-	background-color: grey;
+	background-color: rgba(100,100,100,.4);
 }
 
 body{
