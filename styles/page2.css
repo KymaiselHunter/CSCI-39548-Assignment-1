@@ -19,3 +19,14 @@ body{
 .navbar-item{
     color: purple;
 }
+
+#arsh-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 30px;
+}
+
+.arsh-pic{
+    width: 100%;
+}
