@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Kyle's Index</title> 
+		<title>Kyle's Index</title>
+		<link rel="stylesheet" type="text/css" href="styles/general.css">
+		<link rel="stylesheet" type="text/css" href="styles/index.css">
 	</head>
 
 	<body>
-		<h1>Index Page</h1>
-		<h2>Links</h2>
-		<ul>
-			<li><a href="index.html">Index : This Page <a></li>
-			<li><a href="page1.html">Page 1<a></li>
-			<li><a href="page2.html">Page 2<a></li>
-		</ul>
+		<nav class="navbar">
+			<a class = "navbar-item-curr" href="index.html">Index</a>
+			<a class = "navbar-item" href="page1.html">About Me</a>
+			<a class = "navbar-item" href="page2.html">Arsh</a>
+		</nav>
+		
+		<h1 id="welcome-message">Welcome to my Website!!</h1>
+
+		<div id="index-panel">
+			<div class="page-stuff">
+				<p class="page-paragraph">Click here to read about me!<p>
+				<a id = "page1-button" href="page1.html">About Me</a>
+			</div>
+
+			<div class="page-stuff">
+				<p class="page-paragraph">Click here for Arsh!!<p>
+				<a id = "page2-button" href="page2.html">Arsh!!!</a>
+			</div>
+
+
+		</div>		
 	</body>
 </html>
