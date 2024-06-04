@@ -1,12 +1,36 @@
 .navbar{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;	
+	justify-content: center;
+		
 	width: 80%;
 
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top : 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 0px;
+	height: 55px;
 
-	//background-color: #495670;
+	box-shadow: 0px 2px 0px rgba(0,0,0,.2);  
+	
+	list-style-type: none;
+
+
+	/*background-color: #495670;*/
+}
+
+.navbar-item{
+	/*height: 100%;
+	vertical-align: middle;*/
+	display: flex;
+	align-items: center;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+.navbar-item:hover{
+	background-color: grey;
+}
+
+body{
+	margin:0;
 }
