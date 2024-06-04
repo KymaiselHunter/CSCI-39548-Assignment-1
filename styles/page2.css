@@ -1,0 +1,21 @@
+body{
+    background-image: url("../assets/arsh-static-background.avif");
+    background-repeat: repeat;
+}
+
+.navbar-item-curr{
+    background-color: rgb(165, 17, 17,.9);
+    color: lightpink;
+}
+
+.navbar{
+    background-color: rgba(255,255,255,.9);
+}
+
+.navbar-item:hover{
+    background-color: pink;
+}
+
+.navbar-item{
+    color: purple;
+}

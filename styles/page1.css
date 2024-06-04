@@ -1,0 +1,24 @@
+#center-piece{
+    display: flex;
+    justify-content: center;
+    /*border: 2px solid black;*/
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background-color: white;
+    margin-top: 3px;
+}
+
+body{
+    background-image: url("../assets/background.png");
+}
+
+.navbar-item:hover{
+	background-color: rgba(100,100,100,1);
+}
+
+.navbar-item{
+	color: white;
+}
+
