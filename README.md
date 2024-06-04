@@ -9,3 +9,6 @@ We are also additionally tasked with using github features to teach the process 
 -Delete branches after merging 
 -Deploy to github pages 
 -Link to the deployed site in this README
+
+Github pages link:
+https://kymaiselhunter.github.io/CSCI-39548-Assignment-1/index.html
