@@ -8,6 +8,10 @@
     height: 100%;
     background-color: white;
     margin-top: 3px;
+
+    flex-direction: column;
+
+    padding-bottom: 30px;
 }
 
 body{
@@ -20,5 +24,30 @@ body{
 
 .navbar-item{
 	color: white;
+}
+
+#hello{
+    display: flex;
+    justify-content: center;
+}
+
+#synopsus{
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-me{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px;
+    font-size: 18px;
+}
+
+#kyle{
+    margin-right:10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    height: 300px;
 }
 
