@@ -29,6 +29,10 @@
 	text-decoration: none;
 }
 
+.navbar-item:hover{
+	background-color: rgba(100,100,100,.4);
+}
+
 .navbar-item-curr{
 	display: flex;
 	align-items: center;
@@ -37,10 +41,6 @@
 	background-color: #607295;
 	color: white;
 	text-decoration: none;
-}
-
-.navbar-item:hover{
-	background-color: rgba(100,100,100,.4);
 }
 
 body{
