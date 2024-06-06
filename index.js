@@ -7,8 +7,8 @@ const square = function(x)
 
 console.log("square of 4 is", square(4));
 
-//let x = square(9);
-//console.log('square of 9 is {x}')
+let x = square(9);
+console.log(`square of 9 is ${x}`)
 
 function sayHi()
 {
