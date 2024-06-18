@@ -1,0 +1,84 @@
+#button-panel{
+	display: flex;
+	justify-content: space-evenly;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+    margin-top: 20px;
+
+}
+
+
+#add-button{
+    font: inherit;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    width:40%;
+	padding-left:5%;
+	padding-right:5%;
+
+    margin-left: 25%;
+    /*margin-right: 25%;*/
+
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+	background-color: white;
+	color: black;
+	text-decoration: none;
+    border: 2px solid #10116c;
+    border-radius: 8px;
+    transition-duration: 400ms;
+}
+
+#add-button:hover{
+    background-color: #10116c;
+    color: white;
+}
+
+#delete-button{
+    font: inherit;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    width:40%;
+	padding-left:5%;
+	padding-right:5%;
+
+    /*margin-left: 25%;*/
+    margin-right: 25%;
+
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+	background-color: white;
+	color: black;
+	text-decoration: none;
+    border: 2px solid #740e0e;
+    border-radius: 8px;
+    transition-duration: 400ms;
+}
+
+#delete-button:hover{
+    background-color: #740e0e;
+    color: white;
+}
+
+#list-section{
+    display: flex;
+    justify-content: center;
+    /*border: 2px solid black;*/
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background-color: white;
+    margin-top: 3px;
+
+    flex-direction: column;
+
+    padding-bottom: 30px;
+}
